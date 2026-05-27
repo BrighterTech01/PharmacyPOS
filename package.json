@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build-css": "tailwindcss -i ./Assets/css/input.css -o ./Assets/css/tailwind.css --minify",
+    "watch-css": "tailwindcss -i ./Assets/css/input.css -o ./Assets/css/tailwind.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "body-parser": "^2.2.0",
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.13"
+  },
+  "name": "pharmacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
